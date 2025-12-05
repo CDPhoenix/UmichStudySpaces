@@ -15,8 +15,6 @@ app = Flask(__name__)
 CORS(app)
 # 静态文件目录（保存 index.html, availability.html, script.js, styles.css）
 STATIC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
-
-
 # =====================================================
 #                 工具函数：解析 title
 # =====================================================
