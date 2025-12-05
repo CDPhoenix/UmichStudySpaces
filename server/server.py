@@ -204,6 +204,10 @@ def serve_availability():
 def serve_static(filename):
     return send_from_directory(STATIC_DIR, filename)
 
+@app.route("/record.json")
+def serve_record():
+    return send_from_directory(STATIC_DIR, "record.json")
+
 
 # =====================================================
 #                 Flask 启动
