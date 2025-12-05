@@ -325,6 +325,19 @@ export default function AreaDetail() {
               </div>
               {/* ----------👇 你要加的按钮放这里 ------------- */}
               <button
+                style={{
+                  backgroundColor: loading ? "#999" : "#00274C",
+                  color: "white",
+                  padding: "12px 22px",
+                  border: "none",
+                  borderRadius: "10px",
+                  cursor: loading ? "not-allowed" : "pointer",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  marginTop: "15px",
+                  boxShadow: "0px 3px 8px rgba(0,0,0,0.25)",
+                  transition: "0.2s ease"
+                }}
                 onClick={async (e) => {
                   e.stopPropagation();  // <-- 防止触发React的 space/14 导航
                   setLoading(true);
