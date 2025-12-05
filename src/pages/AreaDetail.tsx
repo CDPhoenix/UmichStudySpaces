@@ -156,11 +156,6 @@ export default function AreaDetail() {
     );
   }
 
-  const handleClick = async () => {
-    await fetch("http://localhost:5000/api/run_fetch");
-    window.location.href = "http://localhost:5000/availability.html";
-  };
-
   const noiseOption = filterOptions.noise.find(n => n.value === area.noise);
   const enclosedOption = filterOptions.enclosed.find(e => e.value === area.enclosed);
   const averageRating = reviews.length
@@ -168,6 +163,30 @@ export default function AreaDetail() {
     : 0;
 
   const [loading, setLoading] = useState(false);
+  const handleCheckAvailability = async () => {
+    try {
+      setLoading(true);
+
+      const response = await fetch(`${window.location.origin}/api/run_fetch`, {
+        method: "GET",
+        headers: {
+          "Cache-Control": "no-cache",
+        }
+      });
+
+      const data = await response.json();
+      console.log("爬取完成，返回:", data);
+
+      // 跳转到 availability 页面
+      window.location.href = `${window.location.origin}/availability.html`;
+
+    } catch (error) {
+      console.error("请求失败：", error);
+      alert("Request failed, check console.");
+    } finally {
+      setLoading(false);
+    }
+  };
   if (loading) {
          return (
             <div style={{
@@ -306,38 +325,13 @@ export default function AreaDetail() {
               </div>
               {/* ----------👇 你要加的按钮放这里 ------------- */}
                 <button
-                  onClick={async () => {
-                    setLoading(true); // ⬅️ 切换到加载状态
-                    try {
-                      const res = await fetch("http://localhost:5000/api/run_fetch", {
-                        method: "GET",
-                        headers: {
-                          "Cache-Control": "no-cache",
-                        },
-                      });
-
-                      const data = await res.json();
-                      console.log("爬虫完成:", data);
-
-                      window.location.href = "http://localhost:5000/availability.html";
-                    } catch (err) {
-                      console.error("fetch错误:", err);
-                      setLoading(false);
-                    }
-                  }}
+                  onClick={handleCheckAvailability}
                   disabled={loading}
-                  style={{
-                    padding: "12px 20px",
-                    borderRadius: "8px",
-                    background: loading ? "#999" : "#005FFF",
-                    color: "white",
-                    marginTop: "12px",
-                    cursor: loading ? "not-allowed" : "pointer",
-                    fontWeight: 600,
-                  }}
+                  className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 disabled:bg-gray-300"
                 >
-                  {loading ? "Please wait..." : "Checking availability"}
-                </button>
+                  {loading ? "Fetching Availability..." : "Check Availability"}
+                </button>        
+
               {/* ----------👆 你要加的按钮放这里 ------------- */}
 
               <Separator />
