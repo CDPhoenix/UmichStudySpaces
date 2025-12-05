@@ -324,6 +324,7 @@ export default function AreaDetail() {
                 </table>
               </div>
               {/* ----------👇 你要加的按钮放这里 ------------- */}
+              {id === '14' && (
               <button
                 style={{
                   backgroundColor: loading ? "#999" : "#00274C",
@@ -357,7 +358,7 @@ export default function AreaDetail() {
                 }}
               >
                 {loading ? "Fetching..." : "Check Availability"}
-              </button>
+              </button>)}
     
 
               {/* ----------👆 你要加的按钮放这里 ------------- */}
