@@ -331,11 +331,10 @@ export default function AreaDetail() {
                       const res = await fetch(`${window.location.origin}/api/run_fetch`, { cache: "no-cache" });
                       const json = await res.json();
                       console.log("爬虫完成:", json);
-
-                      // 🚨关键信息：在下一事件循环执行
+                          // 🔥完全非SPA方式跳转
                       setTimeout(() => {
-                        window.location.assign(`${window.location.origin}/availability.html`);
-                      }, 30);
+                        window.location.replace(`${window.location.origin}/availability.html`);
+                      }, 0);
                     } catch (e) {
                       console.error(e);
                       setLoading(false);
