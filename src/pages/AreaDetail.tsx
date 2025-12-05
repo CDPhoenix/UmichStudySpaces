@@ -325,17 +325,17 @@ export default function AreaDetail() {
               </div>
               {/* ----------👇 你要加的按钮放这里 ------------- */}
               <button
-                  onClick={async () => {
+              onClick={async () => {
                     setLoading(true);
                     try {
                       const res = await fetch(`${window.location.origin}/api/run_fetch`, { cache: "no-cache" });
                       const json = await res.json();
                       console.log("爬虫完成:", json);
 
-                      // 🔥关键操作：立刻跳转并阻止React继续执行
-                      window.location.assign(`${window.location.origin}/availability.html`);
-                      return;
-
+                      // 🚨关键信息：在下一事件循环执行
+                      setTimeout(() => {
+                        window.location.assign(`${window.location.origin}/availability.html`);
+                      }, 30);
                     } catch (e) {
                       console.error(e);
                       setLoading(false);
