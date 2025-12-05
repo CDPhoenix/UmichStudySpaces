@@ -324,13 +324,26 @@ export default function AreaDetail() {
                 </table>
               </div>
               {/* ----------👇 你要加的按钮放这里 ------------- */}
-                <button
-                  onClick={handleCheckAvailability}
-                  disabled={loading}
-                  className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 disabled:bg-gray-300"
+              <button
+                  onClick={async () => {
+                    setLoading(true);
+                    try {
+                      const res = await fetch(`${window.location.origin}/api/run_fetch`, { cache: "no-cache" });
+                      const json = await res.json();
+                      console.log("爬虫完成:", json);
+
+                      // 🔥关键操作：立刻跳转并阻止React继续执行
+                      window.location.assign(`${window.location.origin}/availability.html`);
+                      return;
+
+                    } catch (e) {
+                      console.error(e);
+                      setLoading(false);
+                    }
+                  }}
                 >
-                  {loading ? "Fetching Availability..." : "Check Availability"}
-                </button>        
+                  {loading ? "Fetching..." : "Check Availability"}
+              </button>     
 
               {/* ----------👆 你要加的按钮放这里 ------------- */}
 
