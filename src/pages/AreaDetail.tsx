@@ -325,24 +325,27 @@ export default function AreaDetail() {
               </div>
               {/* ----------👇 你要加的按钮放这里 ------------- */}
               <button
-              onClick={async () => {
-                    setLoading(true);
-                    try {
-                      const res = await fetch(`${window.location.origin}/api/run_fetch`, { cache: "no-cache" });
-                      const json = await res.json();
-                      console.log("爬虫完成:", json);
-                          // 🔥完全非SPA方式跳转
-                      setTimeout(() => {
-                        window.location.replace(`${window.location.origin}/availability.html`);
-                      }, 0);
-                    } catch (e) {
-                      console.error(e);
-                      setLoading(false);
-                    }
-                  }}
-                >
-                  {loading ? "Fetching..." : "Check Availability"}
-              </button>     
+                onClick={async (e) => {
+                  e.stopPropagation();  // <-- 防止触发React的 space/14 导航
+                  setLoading(true);
+
+                  try {
+                    const res = await fetch(`${window.location.origin}/api/run_fetch`, { cache: "no-cache" });
+                    const json = await res.json();
+                    console.log("爬虫完成:", json);
+
+                    // 真实跳转
+                    window.location.replace(`${window.location.origin}/availability.html`);
+
+                  } catch (e) {
+                    console.error(e);
+                    setLoading(false);
+                  }
+                }}
+              >
+                {loading ? "Fetching..." : "Check Availability"}
+              </button>
+    
 
               {/* ----------👆 你要加的按钮放这里 ------------- */}
 
