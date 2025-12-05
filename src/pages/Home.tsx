@@ -50,12 +50,12 @@ export default function Home() {
             >
               <div className="relative h-[280px] overflow-hidden">
                 <img 
-                  src={encodeURI("/Campus photos/Central Campus.jpg")} 
+                  src={encodeURI("/Campusphotos/CentralCampus.jpg")} 
                   alt="Central Campus" 
                   className="absolute inset-0 w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    console.error('Campus image failed:', '/Campus photos/Central Campus.jpg');
+                    console.error('Campus image failed:', '/Campusphotos/CentralCampus.jpg');
                     target.style.display = 'none';
                     if (!target.nextElementSibling) {
                       const placeholder = document.createElement('div');
@@ -105,12 +105,12 @@ export default function Home() {
             >
               <div className="relative h-[280px] overflow-hidden">
                 <img 
-                  src={encodeURI("/Campus photos/North Campus.jpg")} 
+                  src={encodeURI("/Campusphotos/NorthCampus.jpg")} 
                   alt="North Campus" 
                   className="absolute inset-0 w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    console.error('Campus image failed:', '/Campus photos/North Campus.jpg');
+                    console.error('Campus image failed:', '/Campusphotos/NorthCampus.jpg');
                     target.style.display = 'none';
                     if (!target.nextElementSibling) {
                       const placeholder = document.createElement('div');

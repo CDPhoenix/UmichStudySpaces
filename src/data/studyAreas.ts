@@ -12,7 +12,7 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'semi',
     photos: [
-      'photos/Central Campus/Chemistry/Common Area - Floor 3 2 Small.png'
+      'photos/CentralCampus/Chemistry/Common Area - Floor 3 2 Small.png'
     ],
     dimensions: {
       environment: 'There are some booths available with cushioned seats, and some tables with chairs. They are pretty comfortable.',
@@ -33,7 +33,7 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['studyRoom'],
     enclosed: 'enclosed',
     photos: [
-      'photos/Central Campus/Chemistry/Room 3744 2 Small.png'
+      'photos/CentralCampus/Chemistry/Room 3744 2 Small.png'
     ],
     dimensions: {
       environment: "It's a typical presentation room. A window lines one of the walls, allowing for natural lighting.",
@@ -54,9 +54,9 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Fishbowl/Fishbowl 2 Small.png',
-      'photos/Central Campus/Fishbowl/Fishbowl 2 Small.png',
-      'photos/Central Campus/Fishbowl/Fishbowl 3 Small.png'
+      'photos/CentralCampus/Fishbowl/Fishbowl 2 Small.png',
+      'photos/CentralCampus/Fishbowl/Fishbowl 2 Small.png',
+      'photos/CentralCampus/Fishbowl/Fishbowl 3 Small.png'
     ],
     dimensions: {
       environment: 'Bright, functional computer lab with standard rolling chairs and strong overhead lighting. More practical than cozy, with large windows but no plants or lounge furniture.',
@@ -77,7 +77,7 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/North University Building/Room 2540_ Small.png'
+      'photos/CentralCampus/NorthUniversityBuilding/Room 2540_ Small.png'
     ],
     dimensions: {
       environment: 'There is nice, natural lighting and the atmosphere is very studious.',
@@ -98,12 +98,12 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Hatcher/Hatcher - Fifth Floor Small.png',
-      'photos/Central Campus/Hatcher/Hatcher - Fifth Floor(1) Small.png',
-      'photos/Central Campus/Hatcher/Hatcher - Fifth Floor(2) Small.png',
-      'photos/Central Campus/Hatcher/Hatcher - Fifth Floor(3) Small.png',
-      'photos/Central Campus/Hatcher/Hatcher - Fifth Floor(4) Small.png',
-      'photos/Central Campus/Hatcher/Hatcher - Fifth Floor(5) Small.png'
+      'photos/CentralCampus/Hatcher/Hatcher - Fifth Floor Small.png',
+      'photos/CentralCampus/Hatcher/Hatcher - Fifth Floor(1) Small.png',
+      'photos/CentralCampus/Hatcher/Hatcher - Fifth Floor(2) Small.png',
+      'photos/CentralCampus/Hatcher/Hatcher - Fifth Floor(3) Small.png',
+      'photos/CentralCampus/Hatcher/Hatcher - Fifth Floor(4) Small.png',
+      'photos/CentralCampus/Hatcher/Hatcher - Fifth Floor(5) Small.png'
     ],
     dimensions: {
       environment: 'Functional, task-oriented printing area with bright overhead lighting and mostly standing space. Standing-height counter, bright lights, hard flooring, no soft seating or lounge furniture. Designed for quick use rather than comfort.',
@@ -124,8 +124,8 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Hatcher/Hatcher - Second Floor (Reference Room) Small.png',
-      'photos/Central Campus/Hatcher/Hatcher - Second Floor (Reference Room)(1) Small.png'
+      'photos/CentralCampus/Hatcher/Hatcher - Second Floor (Reference Room) Small.png',
+      'photos/CentralCampus/Hatcher/Hatcher - Second Floor (Reference Room)(1) Small.png'
     ],
     dimensions: {
       environment: 'Classic, scholarly reading room with large wooden tables and straight-backed chairs. Long shared tables, wooden chairs, table lamps/overhead lights, tall shelves framing the space. Bright but warm lighting, more formal than cozy.',
@@ -146,11 +146,11 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Kinesiology/Kinesiology - First Floor Small.png',
-      'photos/Central Campus/Kinesiology/Kinesiology - First Floor(1) Small.png',
-      'photos/Central Campus/Kinesiology/Kinesiology - First Floor(2) Small.png',
-      'photos/Central Campus/Kinesiology/Kinesiology - First Floor(3) Small.png',
-      'photos/Central Campus/Kinesiology/Kinesiology - First Floor(4) Small.png'
+      'photos/CentralCampus/Kinesiology/Kinesiology - First Floor Small.png',
+      'photos/CentralCampus/Kinesiology/Kinesiology - First Floor(1) Small.png',
+      'photos/CentralCampus/Kinesiology/Kinesiology - First Floor(2) Small.png',
+      'photos/CentralCampus/Kinesiology/Kinesiology - First Floor(3) Small.png',
+      'photos/CentralCampus/Kinesiology/Kinesiology - First Floor(4) Small.png'
     ],
     dimensions: {
       environment: 'Bright, modern first-floor lounge with plenty of natural light and casual seating. Armchairs or soft chairs, low tables, large windows, a few high-top tables or benches. Feels open and welcoming rather than formal.',
@@ -171,14 +171,14 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/LSA/LSA - First Floor Small.png',
-      'photos/Central Campus/LSA/LSA - First Floor(1) Small.png',
-      'photos/Central Campus/LSA/LSA - First Floor(2) Small.png',
-      'photos/Central Campus/LSA/LSA - First Floor(3) Small.png',
-      'photos/Central Campus/LSA/LSA - First Floor(4) Small.png',
-      'photos/Central Campus/LSA/LSA - First Floor(5) Small.png',
-      'photos/Central Campus/LSA/LSA - First Floor(6) Small.png',
-      'photos/Central Campus/LSA/LSA - First Floor(7) Small.png'
+      'photos/CentralCampus/LSA/LSA - First Floor Small.png',
+      'photos/CentralCampus/LSA/LSA - First Floor(1) Small.png',
+      'photos/CentralCampus/LSA/LSA - First Floor(2) Small.png',
+      'photos/CentralCampus/LSA/LSA - First Floor(3) Small.png',
+      'photos/CentralCampus/LSA/LSA - First Floor(4) Small.png',
+      'photos/CentralCampus/LSA/LSA - First Floor(5) Small.png',
+      'photos/CentralCampus/LSA/LSA - First Floor(6) Small.png',
+      'photos/CentralCampus/LSA/LSA - First Floor(7) Small.png'
     ],
     dimensions: {
       environment: 'Bright, welcoming first-floor lounge with lots of comfortable seating. Couches and cushioned chairs, small tables, open lobby-style layout. Feels relaxed and social rather than formal or silent.',
@@ -199,13 +199,13 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'semi',
     photos: [
-      'photos/Central Campus/LSA/LSA - Second Floor Small.png',
-      'photos/Central Campus/LSA/LSA - Second Floor(1) Small.png',
-      'photos/Central Campus/LSA/LSA - Second Floor(2) Small.png',
-      'photos/Central Campus/LSA/LSA - Second Floor(3) Small.png',
-      'photos/Central Campus/LSA/LSA - Second Floor(4) Small.png',
-      'photos/Central Campus/LSA/LSA - Second Floor(5) Small.png',
-      'photos/Central Campus/LSA/LSA - Second Floor(6) Small.png'
+      'photos/CentralCampus/LSA/LSA - Second Floor Small.png',
+      'photos/CentralCampus/LSA/LSA - Second Floor(1) Small.png',
+      'photos/CentralCampus/LSA/LSA - Second Floor(2) Small.png',
+      'photos/CentralCampus/LSA/LSA - Second Floor(3) Small.png',
+      'photos/CentralCampus/LSA/LSA - Second Floor(4) Small.png',
+      'photos/CentralCampus/LSA/LSA - Second Floor(5) Small.png',
+      'photos/CentralCampus/LSA/LSA - Second Floor(6) Small.png'
     ],
     dimensions: {
       environment: 'Quiet, comfy study floor with lots of cushioned single seats. Soft individual chairs, warm lighting, calm atmosphere. Feels much more relaxed and focused than the first floor lounge.',
@@ -226,14 +226,14 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['studyRoom'],
     enclosed: 'mixed',
     photos: [
-      'photos/Central Campus/Public Health/Public Health Small.png',
-      'photos/Central Campus/Public Health/Public Health(1) Small.png',
-      'photos/Central Campus/Public Health/Public Health(2) Small.png',
-      'photos/Central Campus/Public Health/Public Health(3) Small.png',
-      'photos/Central Campus/Public Health/Public Health(4) Small.png',
-      'photos/Central Campus/Public Health/Public Health(5) Small.png',
-      'photos/Central Campus/Public Health/Public Health(6) Small.png',
-      'photos/Central Campus/Public Health/Public Health(7) Small.png'
+      'photos/CentralCampus/PublicHealth/Public Health Small.png',
+      'photos/CentralCampus/PublicHealth/Public Health(1) Small.png',
+      'photos/CentralCampus/PublicHealth/Public Health(2) Small.png',
+      'photos/CentralCampus/PublicHealth/Public Health(3) Small.png',
+      'photos/CentralCampus/PublicHealth/Public Health(4) Small.png',
+      'photos/CentralCampus/PublicHealth/Public Health(5) Small.png',
+      'photos/CentralCampus/PublicHealth/Public Health(6) Small.png',
+      'photos/CentralCampus/PublicHealth/Public Health(7) Small.png'
     ],
     dimensions: {
       environment: 'The seating in the study rooms is comfortable. Each study room has a nice view of the outside as well. There are multiple areas to study on the first floor. There is an open area that has a lot of natural light, and multiple separate study rooms. Along with a second open area that is behind the study rooms.',
@@ -254,9 +254,9 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['conferenceRoom'],
     enclosed: 'mixed',
     photos: [
-      'photos/Central Campus/Randall/Randall - Second Floor Small.png',
-      'photos/Central Campus/Randall/Randall - Second Floor(1) Small.png',
-      'photos/Central Campus/Randall/Randall - Second Floor(2) Small.png'
+      'photos/CentralCampus/Randall/Randall - Second Floor Small.png',
+      'photos/CentralCampus/Randall/Randall - Second Floor(1) Small.png',
+      'photos/CentralCampus/Randall/Randall - Second Floor(2) Small.png'
     ],
     dimensions: {
       environment: 'Open area with an option for outdoor seating, and a room that is available for reservation. There are sofas and tables for inside. Benches and park tables for the outdoor area. And the study room has a nice window.',
@@ -277,15 +277,15 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Ross/Ross - First Floor Small.png',
-      'photos/Central Campus/Ross/Ross - First Floor(1) Small.png',
-      'photos/Central Campus/Ross/Ross - First Floor(2) Small.png',
-      'photos/Central Campus/Ross/Ross - First Floor(3) Small.png',
-      'photos/Central Campus/Ross/Ross - First Floor(4) Small.png',
-      'photos/Central Campus/Ross/Ross - First Floor(5) Small.png',
-      'photos/Central Campus/Ross/Ross - First Floor(6) Small.png',
-      'photos/Central Campus/Ross/Ross - First Floor(7) Small.png',
-      'photos/Central Campus/Ross/Ross - First Floor(8) Small.png'
+      'photos/CentralCampus/Ross/Ross - First Floor Small.png',
+      'photos/CentralCampus/Ross/Ross - First Floor(1) Small.png',
+      'photos/CentralCampus/Ross/Ross - First Floor(2) Small.png',
+      'photos/CentralCampus/Ross/Ross - First Floor(3) Small.png',
+      'photos/CentralCampus/Ross/Ross - First Floor(4) Small.png',
+      'photos/CentralCampus/Ross/Ross - First Floor(5) Small.png',
+      'photos/CentralCampus/Ross/Ross - First Floor(6) Small.png',
+      'photos/CentralCampus/Ross/Ross - First Floor(7) Small.png',
+      'photos/CentralCampus/Ross/Ross - First Floor(8) Small.png'
     ],
     dimensions: {
       environment: 'Huge, bright atrium-style space with tons of natural light and modern furniture. Tall glass windows, high ceilings, mix of tables and cushioned chairs, some lounge-style seating. Feels energetic and stylish more than cozy or quiet.',
@@ -306,9 +306,9 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['booth'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Shapiro Library/Shapiro - First Floor Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - First Floor(1) Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - First Floor(2) Small.png'
+      'photos/CentralCampus/ShapiroLibrary/Shapiro - First Floor Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro - First Floor(1) Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro - First Floor(2) Small.png'
     ],
     dimensions: {
       environment: 'Large, basement-style computer lab with rows of desktops and standard office chairs. Spinning task chairs, long shared tables with monitors, no soft couches, mostly artificial lighting. Bright overhead lighting and a very functional, work-focused feel.',
@@ -329,22 +329,22 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['studyRoom'],
     enclosed: 'semi',
     photos: [
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00019 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00020 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00021 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00022 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00023 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00024 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00025 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00026 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00027 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00028 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00029 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00030 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00031 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00032 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00033 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Second Floor.jpg/DSC00034 Small.png'
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00019 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00020 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00021 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00022 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00023 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00024 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00025 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00026 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00027 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00028 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00029 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00030 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00031 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00032 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00033 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-SecondFloor.jpg/DSC00034 Small.png'
     ],
     dimensions: {
       environment: 'Simple, functional library floor with bright overhead lighting, wooden chairs, and large tables. Long wooden tables, straight-backed chairs, neutral walls, consistent artificial lighting. More practical than cozy but generally comfortable.',
@@ -365,8 +365,8 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['studyRoom', 'booth'],
     enclosed: 'semi',
     photos: [
-      'photos/Central Campus/Shapiro Library/Shapiro - Third Floor Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Third Floor(1) Small.png'
+      'photos/CentralCampus/ShapiroLibrary/Shapiro - Third Floor Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro - Third Floor(1) Small.png'
     ],
     dimensions: {
       environment: 'Modern, cozy floor with lots of greenery, comfy booths, soft cubicle-style nooks, and both spinny desk chairs and cushioned lounge chairs. Planters with tall plants, padded booth seating, soft chairs with backs, large windows along the side of the space. Big windows add natural light.',
@@ -387,18 +387,18 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00075 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00076 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00077 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00078 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00079 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00080 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00081 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00082 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00083 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00084 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00085 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro - Fourth Floor.jpg/DSC00086 Small.png'
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00075 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00076 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00077 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00078 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00079 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00080 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00081 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00082 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00083 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00084 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00085 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-FourthFloor.jpg/DSC00086 Small.png'
     ],
     dimensions: {
       environment: 'Simple hallway-style study area with long tables, wooden chairs, and bright overhead lights. Neutral walls, straight-backed chairs, evenly spaced tables along the corridor. Functional and tidy, more practical than cozy.',
@@ -419,16 +419,16 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00087 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00088 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00089 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00090 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00091 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00092 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00093 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00094 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00095 Small.png',
-      'photos/Central Campus/Shapiro Library/Shapiro- Basement/DSC00096 Small.png'
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00087 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00088 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00089 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00090 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00091 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00092 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00093 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00094 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00095 Small.png',
+      'photos/CentralCampus/ShapiroLibrary/Shapiro-Basement/DSC00096 Small.png'
     ],
     dimensions: {
       environment: 'Modern library floor with a mix of desktop lab rows and open tables by the stacks. Spinning task chairs, clean white tables, shelves of books along one side, consistent overhead lights. Neutral walls, bright lighting, and ergonomic rolling chairs.',
@@ -449,8 +449,8 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Taubman/Snack Area - First Floor Small.png',
-      'photos/Central Campus/Taubman/Snack Area - First Floor_ Small.png'
+      'photos/CentralCampus/Taubman/Snack Area - First Floor Small.png',
+      'photos/CentralCampus/Taubman/Snack Area - First Floor_ Small.png'
     ],
     dimensions: {
       environment: 'Ergonomic chairs, calm and cozy environment.',
@@ -471,8 +471,8 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Taubman/“Break Room” - Fourth Floor Small.png',
-      'photos/Central Campus/Taubman/“Break Room” - Fifth Floor Small.png'
+      'photos/CentralCampus/Taubman/“Break Room” - Fourth Floor Small.png',
+      'photos/CentralCampus/Taubman/“Break Room” - Fifth Floor Small.png'
     ],
     dimensions: {
       environment: 'Ergonomic chairs, calm and cozy environment.',
@@ -493,8 +493,8 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['conferenceRoom'],
     enclosed: 'enclosed',
     photos: [
-      'photos/Central Campus/Taubman/Conference Room A - Floor 4 Small.png',
-      'photos/Central Campus/Taubman/Conference Room A - Floor 5 Small.png'
+      'photos/CentralCampus/Taubman/Conference Room A - Floor 4 Small.png',
+      'photos/CentralCampus/Taubman/Conference Room A - Floor 5 Small.png'
     ],
     dimensions: {
       environment: 'Ergonomic chairs, calm and cozy environment.',
@@ -515,8 +515,8 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['conferenceRoom'],
     enclosed: 'enclosed',
     photos: [
-      'photos/Central Campus/Taubman/Conference Room B - Floor 4 Small.png',
-      'photos/Central Campus/Taubman/Conference Room B - Floor 5 Small.png'
+      'photos/CentralCampus/Taubman/Conference Room B - Floor 4 Small.png',
+      'photos/CentralCampus/Taubman/Conference Room B - Floor 5 Small.png'
     ],
     dimensions: {
       environment: 'Ergonomic chairs, calm and cozy environment.',
@@ -537,7 +537,7 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/Central Campus/Union/Union - First Floor (Study Lounge) Small.png'
+      'photos/CentralCampus/Union/Union - First Floor (Study Lounge) Small.png'
     ],
     dimensions: {
       environment: 'Classic, cozy reading room with long wooden tables, cushioned chairs, and warm table lamps. Wood furniture, soft upholstered chairs, warm lamp lighting, big windows with natural light. Feels traditional, studious, and inviting.',
@@ -558,9 +558,9 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['studyRoom', 'conferenceRoom', 'movementStudio', 'creationStudio'],
     enclosed: 'mixed',
     photos: [
-      'photos/Central Campus/Union/Union - Second Floor (Idea Hub) Small.png',
-      'photos/Central Campus/Union/Union - Second Floor (Idea Hub)(1) Small.png',
-      'photos/Central Campus/Union/Union - Second Floor (Idea Hub)(2) Small.png'
+      'photos/CentralCampus/Union/Union - Second Floor (Idea Hub) Small.png',
+      'photos/CentralCampus/Union/Union - Second Floor (Idea Hub)(1) Small.png',
+      'photos/CentralCampus/Union/Union - Second Floor (Idea Hub)(2) Small.png'
     ],
     dimensions: {
       environment: 'Bright, modern space with big windows and a mix of tables and soft seating. Colorful chairs, couches and armchairs, movable tables, lots of natural light. Feels creative and energetic rather than quiet and formal.',
@@ -581,12 +581,12 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00003 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00101 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00115 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00116 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00117 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00119 Small.png'
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00003 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00101 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00115 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00116 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00117 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - floor 1/DSC00119 Small.png'
     ],
     dimensions: {
       environment: 'The chairs are all cushioned and quite comfortable.',
@@ -607,8 +607,8 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['studyRoom'],
     enclosed: 'enclosed',
     photos: [
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2 study room/DSC00016 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2 study room/DSC00019 Small.png'
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2 study room/DSC00016 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2 study room/DSC00019 Small.png'
     ],
     dimensions: {
       environment: 'Fairly comfortable.',
@@ -629,25 +629,25 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'mixed',
     photos: [
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00004 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00005 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00006 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00007 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00008 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00009 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00010 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00011 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00015 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00017 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00018 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00020 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00021 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00022 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00023 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00024 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00026 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00027 Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 2/unnamed (4) Small.png'
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00004 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00005 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00006 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00007 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00008 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00009 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00010 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00011 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00015 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00017 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00018 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00020 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00021 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00022 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00023 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00024 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00026 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/DSC00027 Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 2/unnamed (4) Small.png'
     ],
     dimensions: {
       environment: 'The chairs are fairly comfortable. Some areas have floor-to-ceiling windows with views outside.',
@@ -668,11 +668,11 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['conferenceRoom'],
     enclosed: 'mixed',
     photos: [
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 3/dc3wa-collab.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 3/unnamed (1) Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 3/unnamed (1) Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 3/unnamed (2) Small.png',
-      'photos/North Campus/Duderstat/Location_ DUDERSTAT - Floor 3/unnamed (3) Small.png'
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 3/dc3wa-collab.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 3/unnamed (1) Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 3/unnamed (1) Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 3/unnamed (2) Small.png',
+      'photos/NorthCampus/Duderstat/Location_ DUDERSTAT - Floor 3/unnamed (3) Small.png'
     ],
     dimensions: {
       environment: 'The chairs are fairly comfortable. Some areas have floor-to-ceiling windows with views outside. There are also individual, more private one-person seats that are very comfortable.',
@@ -693,10 +693,10 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/North Campus/FRB/2nd Floor/IMG_7906 Small.png',
-      'photos/North Campus/FRB/2nd Floor/IMG_7907 Small.png',
-      'photos/North Campus/FRB/2nd Floor/IMG_7908 Small.png',
-      'photos/North Campus/FRB/2nd Floor/IMG_7918 Small.png'
+      'photos/NorthCampus/FRB/2nd Floor/IMG_7906 Small.png',
+      'photos/NorthCampus/FRB/2nd Floor/IMG_7907 Small.png',
+      'photos/NorthCampus/FRB/2nd Floor/IMG_7908 Small.png',
+      'photos/NorthCampus/FRB/2nd Floor/IMG_7918 Small.png'
     ],
     dimensions: {
       environment: 'Privacy sofa rooms and comfortable chairs near the windows. Great lighting.',
@@ -717,9 +717,9 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/North Campus/FRB/3rd Floor/IMG_7903 Small.png',
-      'photos/North Campus/FRB/3rd Floor/IMG_7904 Small.png',
-      'photos/North Campus/FRB/3rd Floor/IMG_7905 Small.png'
+      'photos/NorthCampus/FRB/3rd Floor/IMG_7903 Small.png',
+      'photos/NorthCampus/FRB/3rd Floor/IMG_7904 Small.png',
+      'photos/NorthCampus/FRB/3rd Floor/IMG_7905 Small.png'
     ],
     dimensions: {
       environment: 'Open space sofa zone. Great lighting.',
@@ -740,10 +740,10 @@ export const studyAreas: StudySpace[] = [
     bookableRooms: ['none'],
     enclosed: 'open',
     photos: [
-      'photos/North Campus/GGBL/Study Area - Floor 1 Small.png',
-      'photos/North Campus/GGBL/Study Area - Floor 2 Small.png',
-      'photos/North Campus/GGBL/Study Room - Floor 1 Small.png',
-      'photos/North Campus/GGBL/Room 1280 Small.png'
+      'photos/NorthCampus/GGBL/Study Area - Floor 1 Small.png',
+      'photos/NorthCampus/GGBL/Study Area - Floor 2 Small.png',
+      'photos/NorthCampus/GGBL/Study Room - Floor 1 Small.png',
+      'photos/NorthCampus/GGBL/Room 1280 Small.png'
     ],
     dimensions: {
       environment: 'Limited sofa and most chairs are hard chairs. Great lighting.',
